@@ -7,7 +7,7 @@
 //
 
 #import "DemoViewController.h"
-
+#import <ComTools/ComTools_Header.h>
 
 @interface DemoViewController ()
 
@@ -18,8 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    
+    BOOL result = [ComTools isBlankString:@""];
 }
 
 - (void)didReceiveMemoryWarning
