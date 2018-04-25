@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ComTools'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of ComTools.'
+  s.summary          = 'a tool for ios'
   s.description      = <<-DESC
 ComTools用于项目中，作为一个简单的工具类
                        DESC
@@ -29,7 +29,7 @@ s.source_files = 'ComTools/Classes/**/*.{h,m}'
   #   'ComTools' => ['ComTools/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
