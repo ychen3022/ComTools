@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ComTools_Example' do
+  pod 'ComTools', :path => '../'
+
+  target 'ComTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
