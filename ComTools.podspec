@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComTools'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'a tool for ios'
   s.description      = <<-DESC
 ComTools用于项目中，作为一个简单的工具类

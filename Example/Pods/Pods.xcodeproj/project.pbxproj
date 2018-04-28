@@ -43,13 +43,13 @@
 		04E57D119891D79307B849F0DF86CF42 /* ComTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ComTools.modulemap; sourceTree = "<group>"; };
 		04E6E132BA9FD3E812BE15AD08F7FDD7 /* ComToolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolView.m; path = ComTools/Classes/ComToolView.m; sourceTree = "<group>"; };
 		113D2DE994CE1AC46360FCF72471CEAE /* Pods-ComTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComTools_Example-resources.sh"; sourceTree = "<group>"; };
-		11BE651C0B578878319765E68BBE84A2 /* Pods_ComTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ComTools_Example.framework; path = "Pods-ComTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BE651C0B578878319765E68BBE84A2 /* Pods_ComTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1300BA0CA103F51FF480EF0CFADE97A4 /* ComToolColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolColor.m; path = ComTools/Classes/ComToolColor.m; sourceTree = "<group>"; };
 		2703CEAE784BF70939E9648A4DD992AB /* ComToolsOther.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolsOther.m; path = ComTools/Classes/ComToolsOther.m; sourceTree = "<group>"; };
 		435E4155353180DFAB639D785C164336 /* ComTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComTools.xcconfig; sourceTree = "<group>"; };
 		447B62F48AB2765FB2D4A8AD1A60742C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463B945B0617C73E6F6834E8D81DA6AD /* Pods-ComTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComTools_Example-dummy.m"; sourceTree = "<group>"; };
-		492C30A90E72A84F3A1937218504FE0B /* ComTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ComTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		492C30A90E72A84F3A1937218504FE0B /* ComTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ComTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		498AEDD81FB50D4E52949B07173155BE /* ComToolsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolsMacros.h; path = ComTools/Classes/ComToolsMacros.h; sourceTree = "<group>"; };
 		50042E07BA05C6C3500FA24684FA4EBB /* ComToolColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolColor.h; path = ComTools/Classes/ComToolColor.h; sourceTree = "<group>"; };
 		502AE2859FBAFA7A3B69A23D415A7BDF /* Pods-ComTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -61,15 +61,23 @@
 		8B22DA699201C6202A6BD8ACCAA14958 /* Pods-ComTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E2C11550842F78BB501243E8FEF9BAC /* ComToolText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolText.h; path = ComTools/Classes/ComToolText.h; sourceTree = "<group>"; };
 		9192E4449975CB8847671CFA57BC5E22 /* ComTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ComTools-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9421634667E555197482775A689FD264 /* ComTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ComTools.framework; path = ComTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2825A493817D7B9C3A52F55FA5714FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9421634667E555197482775A689FD264 /* ComTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2825A493817D7B9C3A52F55FA5714FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B3C5052CE2A7235EA8BB66C55B5EDAD5 /* ComToolsOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolsOther.h; path = ComTools/Classes/ComToolsOther.h; sourceTree = "<group>"; };
+		B5103A0920946F0F00BD338D /* UIView+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		B5103A0A20946F0F00BD338D /* NSString+TMNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TMNSString.h"; sourceTree = "<group>"; };
+		B5103A0B20946F0F00BD338D /* UIImage+TMUIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TMUIImage.m"; sourceTree = "<group>"; };
+		B5103A0C20946F0F00BD338D /* NSDate+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ext.h"; sourceTree = "<group>"; };
+		B5103A0D20946F0F00BD338D /* NSString+TMNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMNSString.m"; sourceTree = "<group>"; };
+		B5103A0E20946F0F00BD338D /* UIView+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		B5103A0F20946F0F00BD338D /* NSDate+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ext.m"; sourceTree = "<group>"; };
+		B5103A1020946F0F00BD338D /* UIImage+TMUIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TMUIImage.h"; sourceTree = "<group>"; };
 		B512EDB01BB5ACC0D883FEF1EA19E805 /* Pods-ComTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B726822CD7C88F2456008B2D0F70955C /* Pods-ComTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComTools_Example.modulemap"; sourceTree = "<group>"; };
 		C62FE043405B1A58830F47311645C7DE /* Pods-ComTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		CE20DF38AB5BB9277DFFE8DF5E44E194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CE20DF38AB5BB9277DFFE8DF5E44E194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CEB13146B29CDC1192F16B8E063A490A /* ComToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolView.h; path = ComTools/Classes/ComToolView.h; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA45BD4A3790BF32457C4FF9C95B65CF /* ComTools_Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComTools_Header.h; path = ComTools/Classes/ComTools_Header.h; sourceTree = "<group>"; };
@@ -101,11 +109,12 @@
 		293F1A1DD931B194F7CDDC05BEBA44E0 /* ComTools */ = {
 			isa = PBXGroup;
 			children = (
-				50042E07BA05C6C3500FA24684FA4EBB /* ComToolColor.h */,
-				1300BA0CA103F51FF480EF0CFADE97A4 /* ComToolColor.m */,
+				DA45BD4A3790BF32457C4FF9C95B65CF /* ComTools_Header.h */,
 				88B400C059F87DDBABDF1935825DB9FE /* ComTools.h */,
 				7421587E644C48F9C88F35CB5F0DBA2B /* ComTools.m */,
-				DA45BD4A3790BF32457C4FF9C95B65CF /* ComTools_Header.h */,
+				B5103A0820946F0F00BD338D /* Category */,
+				50042E07BA05C6C3500FA24684FA4EBB /* ComToolColor.h */,
+				1300BA0CA103F51FF480EF0CFADE97A4 /* ComToolColor.m */,
 				498AEDD81FB50D4E52949B07173155BE /* ComToolsMacros.h */,
 				B3C5052CE2A7235EA8BB66C55B5EDAD5 /* ComToolsOther.h */,
 				2703CEAE784BF70939E9648A4DD992AB /* ComToolsOther.m */,
@@ -196,6 +205,22 @@
 			);
 			name = "Pods-ComTools_Example";
 			path = "Target Support Files/Pods-ComTools_Example";
+			sourceTree = "<group>";
+		};
+		B5103A0820946F0F00BD338D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B5103A0C20946F0F00BD338D /* NSDate+Ext.h */,
+				B5103A0F20946F0F00BD338D /* NSDate+Ext.m */,
+				B5103A0A20946F0F00BD338D /* NSString+TMNSString.h */,
+				B5103A0D20946F0F00BD338D /* NSString+TMNSString.m */,
+				B5103A1020946F0F00BD338D /* UIImage+TMUIImage.h */,
+				B5103A0B20946F0F00BD338D /* UIImage+TMUIImage.m */,
+				B5103A0E20946F0F00BD338D /* UIView+Ext.h */,
+				B5103A0920946F0F00BD338D /* UIView+Ext.m */,
+			);
+			name = Category;
+			path = ComTools/Classes/Category;
 			sourceTree = "<group>";
 		};
 		BF54E5D0FAF84296B826849C524C98B0 /* Products */ = {
