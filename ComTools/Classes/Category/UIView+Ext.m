@@ -16,6 +16,9 @@
 #define kLeftLineTag    998
 #define kRightLineTag   999
 
+#define kLineColor       @"#e2e2e2"
+
+
 
 CGPoint CGRectGetCenter(CGRect rect)
 {
