@@ -7,7 +7,7 @@
 //
 
 #import "UIView+Ext.h"
-#import "ComTools.h"
+
 
 #define kLineHeight     0.5
 #define kLineWidth      0.5

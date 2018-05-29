@@ -11,7 +11,6 @@
 		24E0AE15765DD138472CB8E4CF9C715F /* ComToolsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 498AEDD81FB50D4E52949B07173155BE /* ComToolsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E4E38653F4AD35542EC47B81C7A0271 /* ComTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421587E644C48F9C88F35CB5F0DBA2B /* ComTools.m */; };
 		6256FA6FD9191FBBEB3FA69B44A7E81F /* ComTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192E4449975CB8847671CFA57BC5E22 /* ComTools-dummy.m */; };
-		64FB93D8D05210F31411DFDBD8D0327C /* ComTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B400C059F87DDBABDF1935825DB9FE /* ComTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C4C36B3E2987D9257B747D983350702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A6D0DA5D337AAEA0295389ECC917F56B /* Pods-ComTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 463B945B0617C73E6F6834E8D81DA6AD /* Pods-ComTools_Example-dummy.m */; };
 		AD64FD6981178EFAAFFAFC120EC10418 /* ComTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 763A92D2EBC09E6CCDFD1F215729DCF0 /* ComTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +22,7 @@
 		B505FC8C20BD3C7F002841F7 /* ComToolText.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8420BD3C7F002841F7 /* ComToolText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B505FC8D20BD3C7F002841F7 /* ComToolsOther.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8520BD3C7F002841F7 /* ComToolsOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B505FC8E20BD3C7F002841F7 /* ComToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8620BD3C7F002841F7 /* ComToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505FC8F20BD541A002841F7 /* ComTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B400C059F87DDBABDF1935825DB9FE /* ComTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5103A1A2094722800BD338D /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = B5103A122094722800BD338D /* UIView+Ext.m */; };
 		B5103A1B2094722800BD338D /* NSString+TMNSString.h in Headers */ = {isa = PBXBuildFile; fileRef = B5103A132094722800BD338D /* NSString+TMNSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5103A1C2094722800BD338D /* UIImage+TMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5103A142094722800BD338D /* UIImage+TMUIImage.m */; };
@@ -265,16 +265,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD64FD6981178EFAAFFAFC120EC10418 /* ComTools-umbrella.h in Headers */,
-				64FB93D8D05210F31411DFDBD8D0327C /* ComTools.h in Headers */,
+				B5103A1F2094722800BD338D /* UIView+Ext.h in Headers */,
 				EB24B2AE816855190C0F84B5D06DEC7B /* ComTools_Header.h in Headers */,
 				B5103A1B2094722800BD338D /* NSString+TMNSString.h in Headers */,
-				B5103A1F2094722800BD338D /* UIView+Ext.h in Headers */,
 				B505FC8C20BD3C7F002841F7 /* ComToolText.h in Headers */,
 				B505FC8B20BD3C7F002841F7 /* ComToolColor.h in Headers */,
 				B505FC8E20BD3C7F002841F7 /* ComToolView.h in Headers */,
 				B505FC8D20BD3C7F002841F7 /* ComToolsOther.h in Headers */,
 				B5103A1D2094722800BD338D /* NSDate+Ext.h in Headers */,
 				B5103A212094722800BD338D /* UIImage+TMUIImage.h in Headers */,
+				B505FC8F20BD541A002841F7 /* ComTools.h in Headers */,
 				24E0AE15765DD138472CB8E4CF9C715F /* ComToolsMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

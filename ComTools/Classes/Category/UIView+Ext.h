@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ComTools.h"
 
 CGPoint CGRectGetCenter(CGRect rect);
 CGRect  CGRectMoveToCenter(CGRect rect, CGPoint center);
