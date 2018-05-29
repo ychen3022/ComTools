@@ -25,11 +25,22 @@ ComTools用于项目中，作为一个简单的工具类
 
   s.source_files = 'ComTools/Classes/**/*.{h,m}'
   
-  s.subspec 'SubTools' do |ss|
-    ss.source_files = 'ComTools/Classes/SubTools/*.{h,m}'
+  s.subspec 'SubTools' do |sub1|
+      
+      sub1.ios.deployment_target = '8.0'
+
+      sub1.source_files = 'ComTools/Classes/SubTools/*.{h,m}'
+  end
   
-  s.subspec 'Category' do |ss|
-    ss.source_files = 'ComTools/Classes/Category/*.{h,m}'
+#  s.subspec 'Category' do |sub2|
+#      
+#      sub2.ios.deployment_target = '8.0'
+#      
+#      sub2.public_header_files = 'Pod/Classes/**/*.h'
+#      
+#      sub2.source_files = 'ComTools/Classes/Category/*.{h,m}'
+#  end
+  
   
 
   # s.resource_bundles = {
@@ -39,4 +50,5 @@ ComTools用于项目中，作为一个简单的工具类
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
