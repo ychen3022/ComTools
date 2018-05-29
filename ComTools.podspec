@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComTools'
-  s.version          = '0.0.4'
+  s.version          = '0.0.6'
   s.summary          = 'a tool for ios'
   s.description      = <<-DESC
 ComTools用于项目中，作为一个简单的工具类
@@ -23,9 +23,11 @@ ComTools用于项目中，作为一个简单的工具类
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ComTools/Classes/**/*.{h,m}'
+  s.source_files = 'ComTools/Classes/*.{h,m}'
   
   s.subspec 'SubTools' do |sub1|
+      
+      sub1.name ='SubTools'
       
       sub1.ios.deployment_target = '8.0'
 
