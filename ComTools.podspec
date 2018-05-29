@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComTools'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'a tool for ios'
   s.description      = <<-DESC
 ComTools用于项目中，作为一个简单的工具类
@@ -23,8 +23,15 @@ ComTools用于项目中，作为一个简单的工具类
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'ComTools/Classes/**/*.{h,m}'
+  s.source_files = 'ComTools/Classes/**/*.{h,m}'
   
+  s.subspec 'SubTools' do |ss|
+    ss.source_files = 'ComTools/Classes/SubTools/*.{h,m}'
+  
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'ComTools/Classes/Category/*.{h,m}'
+  
+
   # s.resource_bundles = {
   #   'ComTools' => ['ComTools/Assets/*.png']
   # }

@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048ED89A1E259C3B28A1E47C142EC575 /* ComToolText.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2C11550842F78BB501243E8FEF9BAC /* ComToolText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19146919F211F849DCA8591567ED5079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		20B26A6C452A43EEA747A726D33F2E2A /* ComToolText.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F6DB40CC66CC5F792F3043259B944 /* ComToolText.m */; };
 		24E0AE15765DD138472CB8E4CF9C715F /* ComToolsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 498AEDD81FB50D4E52949B07173155BE /* ComToolsMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35657A8688972AC85B35A1530C9CDA8B /* ComToolsOther.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C5052CE2A7235EA8BB66C55B5EDAD5 /* ComToolsOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CEFB412F80FA3F93013BB838659172C /* ComToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1300BA0CA103F51FF480EF0CFADE97A4 /* ComToolColor.m */; };
 		3E4E38653F4AD35542EC47B81C7A0271 /* ComTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421587E644C48F9C88F35CB5F0DBA2B /* ComTools.m */; };
-		5328BB718144D0F4C88B667812226F09 /* ComToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB13146B29CDC1192F16B8E063A490A /* ComToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6256FA6FD9191FBBEB3FA69B44A7E81F /* ComTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192E4449975CB8847671CFA57BC5E22 /* ComTools-dummy.m */; };
 		64FB93D8D05210F31411DFDBD8D0327C /* ComTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B400C059F87DDBABDF1935825DB9FE /* ComTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		982EE1108B50D7CA05E7A800BE5D4840 /* ComToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E132BA9FD3E812BE15AD08F7FDD7 /* ComToolView.m */; };
 		9C4C36B3E2987D9257B747D983350702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A6D0DA5D337AAEA0295389ECC917F56B /* Pods-ComTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 463B945B0617C73E6F6834E8D81DA6AD /* Pods-ComTools_Example-dummy.m */; };
 		AD64FD6981178EFAAFFAFC120EC10418 /* ComTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 763A92D2EBC09E6CCDFD1F215729DCF0 /* ComTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505FC8720BD3C7F002841F7 /* ComToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B505FC7F20BD3C7F002841F7 /* ComToolColor.m */; };
+		B505FC8820BD3C7F002841F7 /* ComToolText.m in Sources */ = {isa = PBXBuildFile; fileRef = B505FC8020BD3C7F002841F7 /* ComToolText.m */; };
+		B505FC8920BD3C7F002841F7 /* ComToolsOther.m in Sources */ = {isa = PBXBuildFile; fileRef = B505FC8120BD3C7F002841F7 /* ComToolsOther.m */; };
+		B505FC8A20BD3C7F002841F7 /* ComToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B505FC8220BD3C7F002841F7 /* ComToolView.m */; };
+		B505FC8B20BD3C7F002841F7 /* ComToolColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8320BD3C7F002841F7 /* ComToolColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505FC8C20BD3C7F002841F7 /* ComToolText.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8420BD3C7F002841F7 /* ComToolText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505FC8D20BD3C7F002841F7 /* ComToolsOther.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8520BD3C7F002841F7 /* ComToolsOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505FC8E20BD3C7F002841F7 /* ComToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = B505FC8620BD3C7F002841F7 /* ComToolView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5103A1A2094722800BD338D /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = B5103A122094722800BD338D /* UIView+Ext.m */; };
 		B5103A1B2094722800BD338D /* NSString+TMNSString.h in Headers */ = {isa = PBXBuildFile; fileRef = B5103A132094722800BD338D /* NSString+TMNSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5103A1C2094722800BD338D /* UIImage+TMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5103A142094722800BD338D /* UIImage+TMUIImage.m */; };
@@ -31,8 +33,6 @@
 		B5103A212094722800BD338D /* UIImage+TMUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B5103A192094722800BD338D /* UIImage+TMUIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC54CA31F9FF3B774AD87AB9EE95B3D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		C4AF3C872B3C00C4D8025F72E50526D0 /* Pods-ComTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C62FE043405B1A58830F47311645C7DE /* Pods-ComTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8F71C280BB029CD366EDA46DF5FFF6E /* ComToolColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 50042E07BA05C6C3500FA24684FA4EBB /* ComToolColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFAE4DB5290A21D8B0CAC124D7AA15AE /* ComToolsOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 2703CEAE784BF70939E9648A4DD992AB /* ComToolsOther.m */; };
 		EB24B2AE816855190C0F84B5D06DEC7B /* ComTools_Header.h in Headers */ = {isa = PBXBuildFile; fileRef = DA45BD4A3790BF32457C4FF9C95B65CF /* ComTools_Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,30 +49,31 @@
 /* Begin PBXFileReference section */
 		0238BDBDF7B5285925C675892D373596 /* ComTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComTools-prefix.pch"; sourceTree = "<group>"; };
 		04E57D119891D79307B849F0DF86CF42 /* ComTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ComTools.modulemap; sourceTree = "<group>"; };
-		04E6E132BA9FD3E812BE15AD08F7FDD7 /* ComToolView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolView.m; path = ComTools/Classes/ComToolView.m; sourceTree = "<group>"; };
 		113D2DE994CE1AC46360FCF72471CEAE /* Pods-ComTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComTools_Example-resources.sh"; sourceTree = "<group>"; };
 		11BE651C0B578878319765E68BBE84A2 /* Pods_ComTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1300BA0CA103F51FF480EF0CFADE97A4 /* ComToolColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolColor.m; path = ComTools/Classes/ComToolColor.m; sourceTree = "<group>"; };
-		2703CEAE784BF70939E9648A4DD992AB /* ComToolsOther.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolsOther.m; path = ComTools/Classes/ComToolsOther.m; sourceTree = "<group>"; };
 		435E4155353180DFAB639D785C164336 /* ComTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComTools.xcconfig; sourceTree = "<group>"; };
 		447B62F48AB2765FB2D4A8AD1A60742C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463B945B0617C73E6F6834E8D81DA6AD /* Pods-ComTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComTools_Example-dummy.m"; sourceTree = "<group>"; };
 		492C30A90E72A84F3A1937218504FE0B /* ComTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ComTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		498AEDD81FB50D4E52949B07173155BE /* ComToolsMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolsMacros.h; path = ComTools/Classes/ComToolsMacros.h; sourceTree = "<group>"; };
-		50042E07BA05C6C3500FA24684FA4EBB /* ComToolColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolColor.h; path = ComTools/Classes/ComToolColor.h; sourceTree = "<group>"; };
 		502AE2859FBAFA7A3B69A23D415A7BDF /* Pods-ComTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7421587E644C48F9C88F35CB5F0DBA2B /* ComTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComTools.m; path = ComTools/Classes/ComTools.m; sourceTree = "<group>"; };
 		74841A0034DCC85AA083A7F0EC72D116 /* Pods-ComTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		763A92D2EBC09E6CCDFD1F215729DCF0 /* ComTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComTools-umbrella.h"; sourceTree = "<group>"; };
-		7C8F6DB40CC66CC5F792F3043259B944 /* ComToolText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ComToolText.m; path = ComTools/Classes/ComToolText.m; sourceTree = "<group>"; };
 		88B400C059F87DDBABDF1935825DB9FE /* ComTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComTools.h; path = ComTools/Classes/ComTools.h; sourceTree = "<group>"; };
 		8B22DA699201C6202A6BD8ACCAA14958 /* Pods-ComTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8E2C11550842F78BB501243E8FEF9BAC /* ComToolText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolText.h; path = ComTools/Classes/ComToolText.h; sourceTree = "<group>"; };
 		9192E4449975CB8847671CFA57BC5E22 /* ComTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ComTools-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9421634667E555197482775A689FD264 /* ComTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2825A493817D7B9C3A52F55FA5714FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B3C5052CE2A7235EA8BB66C55B5EDAD5 /* ComToolsOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolsOther.h; path = ComTools/Classes/ComToolsOther.h; sourceTree = "<group>"; };
+		B505FC7F20BD3C7F002841F7 /* ComToolColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComToolColor.m; sourceTree = "<group>"; };
+		B505FC8020BD3C7F002841F7 /* ComToolText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComToolText.m; sourceTree = "<group>"; };
+		B505FC8120BD3C7F002841F7 /* ComToolsOther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComToolsOther.m; sourceTree = "<group>"; };
+		B505FC8220BD3C7F002841F7 /* ComToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComToolView.m; sourceTree = "<group>"; };
+		B505FC8320BD3C7F002841F7 /* ComToolColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComToolColor.h; sourceTree = "<group>"; };
+		B505FC8420BD3C7F002841F7 /* ComToolText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComToolText.h; sourceTree = "<group>"; };
+		B505FC8520BD3C7F002841F7 /* ComToolsOther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComToolsOther.h; sourceTree = "<group>"; };
+		B505FC8620BD3C7F002841F7 /* ComToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComToolView.h; sourceTree = "<group>"; };
 		B5103A122094722800BD338D /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
 		B5103A132094722800BD338D /* NSString+TMNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMNSString.h"; sourceTree = "<group>"; };
 		B5103A142094722800BD338D /* UIImage+TMUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TMUIImage.m"; sourceTree = "<group>"; };
@@ -86,7 +87,6 @@
 		B726822CD7C88F2456008B2D0F70955C /* Pods-ComTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComTools_Example.modulemap"; sourceTree = "<group>"; };
 		C62FE043405B1A58830F47311645C7DE /* Pods-ComTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		CE20DF38AB5BB9277DFFE8DF5E44E194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CEB13146B29CDC1192F16B8E063A490A /* ComToolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComToolView.h; path = ComTools/Classes/ComToolView.h; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA45BD4A3790BF32457C4FF9C95B65CF /* ComTools_Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComTools_Header.h; path = ComTools/Classes/ComTools_Header.h; sourceTree = "<group>"; };
 		E2BDAC3EB6D5F6E5E03C8024BDE4BC96 /* Pods-ComTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,16 +120,9 @@
 				DA45BD4A3790BF32457C4FF9C95B65CF /* ComTools_Header.h */,
 				88B400C059F87DDBABDF1935825DB9FE /* ComTools.h */,
 				7421587E644C48F9C88F35CB5F0DBA2B /* ComTools.m */,
-				B5103A112094722800BD338D /* Category */,
-				50042E07BA05C6C3500FA24684FA4EBB /* ComToolColor.h */,
-				1300BA0CA103F51FF480EF0CFADE97A4 /* ComToolColor.m */,
 				498AEDD81FB50D4E52949B07173155BE /* ComToolsMacros.h */,
-				B3C5052CE2A7235EA8BB66C55B5EDAD5 /* ComToolsOther.h */,
-				2703CEAE784BF70939E9648A4DD992AB /* ComToolsOther.m */,
-				8E2C11550842F78BB501243E8FEF9BAC /* ComToolText.h */,
-				7C8F6DB40CC66CC5F792F3043259B944 /* ComToolText.m */,
-				CEB13146B29CDC1192F16B8E063A490A /* ComToolView.h */,
-				04E6E132BA9FD3E812BE15AD08F7FDD7 /* ComToolView.m */,
+				B505FC7E20BD3C7F002841F7 /* SubTools */,
+				B5103A112094722800BD338D /* Category */,
 				68B0C7C90320BAC90EF1CC1258481636 /* Pod */,
 				58525694C2A6788F8D1A3C6DEEFEA23F /* Support Files */,
 			);
@@ -215,6 +208,22 @@
 			path = "Target Support Files/Pods-ComTools_Example";
 			sourceTree = "<group>";
 		};
+		B505FC7E20BD3C7F002841F7 /* SubTools */ = {
+			isa = PBXGroup;
+			children = (
+				B505FC8320BD3C7F002841F7 /* ComToolColor.h */,
+				B505FC7F20BD3C7F002841F7 /* ComToolColor.m */,
+				B505FC8520BD3C7F002841F7 /* ComToolsOther.h */,
+				B505FC8120BD3C7F002841F7 /* ComToolsOther.m */,
+				B505FC8420BD3C7F002841F7 /* ComToolText.h */,
+				B505FC8020BD3C7F002841F7 /* ComToolText.m */,
+				B505FC8620BD3C7F002841F7 /* ComToolView.h */,
+				B505FC8220BD3C7F002841F7 /* ComToolView.m */,
+			);
+			name = SubTools;
+			path = ComTools/Classes/SubTools;
+			sourceTree = "<group>";
+		};
 		B5103A112094722800BD338D /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,18 +264,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F71C280BB029CD366EDA46DF5FFF6E /* ComToolColor.h in Headers */,
 				AD64FD6981178EFAAFFAFC120EC10418 /* ComTools-umbrella.h in Headers */,
 				64FB93D8D05210F31411DFDBD8D0327C /* ComTools.h in Headers */,
 				EB24B2AE816855190C0F84B5D06DEC7B /* ComTools_Header.h in Headers */,
 				B5103A1B2094722800BD338D /* NSString+TMNSString.h in Headers */,
 				B5103A1F2094722800BD338D /* UIView+Ext.h in Headers */,
+				B505FC8C20BD3C7F002841F7 /* ComToolText.h in Headers */,
+				B505FC8B20BD3C7F002841F7 /* ComToolColor.h in Headers */,
+				B505FC8E20BD3C7F002841F7 /* ComToolView.h in Headers */,
+				B505FC8D20BD3C7F002841F7 /* ComToolsOther.h in Headers */,
 				B5103A1D2094722800BD338D /* NSDate+Ext.h in Headers */,
 				B5103A212094722800BD338D /* UIImage+TMUIImage.h in Headers */,
 				24E0AE15765DD138472CB8E4CF9C715F /* ComToolsMacros.h in Headers */,
-				35657A8688972AC85B35A1530C9CDA8B /* ComToolsOther.h in Headers */,
-				048ED89A1E259C3B28A1E47C142EC575 /* ComToolText.h in Headers */,
-				5328BB718144D0F4C88B667812226F09 /* ComToolView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,15 +366,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5103A202094722800BD338D /* NSDate+Ext.m in Sources */,
-				3CEFB412F80FA3F93013BB838659172C /* ComToolColor.m in Sources */,
 				6256FA6FD9191FBBEB3FA69B44A7E81F /* ComTools-dummy.m in Sources */,
+				B505FC8820BD3C7F002841F7 /* ComToolText.m in Sources */,
 				B5103A1E2094722800BD338D /* NSString+TMNSString.m in Sources */,
+				B505FC8720BD3C7F002841F7 /* ComToolColor.m in Sources */,
 				3E4E38653F4AD35542EC47B81C7A0271 /* ComTools.m in Sources */,
-				DFAE4DB5290A21D8B0CAC124D7AA15AE /* ComToolsOther.m in Sources */,
+				B505FC8920BD3C7F002841F7 /* ComToolsOther.m in Sources */,
 				B5103A1C2094722800BD338D /* UIImage+TMUIImage.m in Sources */,
+				B505FC8A20BD3C7F002841F7 /* ComToolView.m in Sources */,
 				B5103A1A2094722800BD338D /* UIView+Ext.m in Sources */,
-				20B26A6C452A43EEA747A726D33F2E2A /* ComToolText.m in Sources */,
-				982EE1108B50D7CA05E7A800BE5D4840 /* ComToolView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
