@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComTools'
-  s.version          = '0.0.7'
+  s.version          = '0.1.0'
   s.summary          = 'a tool for ios'
   s.description      = <<-DESC
 ComTools用于项目中，作为一个简单的工具类
                        DESC
-
+                       
   s.homepage         = 'https://github.com/ychen3022/ComTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -23,34 +23,13 @@ ComTools用于项目中，作为一个简单的工具类
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ComTools/Classes/*.{h,m}'
-  
-  s.subspec 'SubTools' do |sub1|
-      
-      sub1.name ='SubTools'
-
-      sub1.ios.deployment_target = '8.0'
-
-      sub1.source_files = 'ComTools/Classes/SubTools/**/*.{h,m}'
-  end
-  
-  s.subspec 'Category' do |sub2|
-      
-      sub2.name ='Category'
-
-      sub2.ios.deployment_target = '8.0'
-
-      sub2.source_files = 'ComTools/Classes/Category/**/*.{h,m}'
-  end
-
-  
+  s.source_files = 'ComTools/Classes/**/*.{h,m}'
 
   # s.resource_bundles = {
   #   'ComTools' => ['ComTools/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
 end
